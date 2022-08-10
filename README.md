@@ -28,7 +28,8 @@ Next step, refining the model through hyperparameter tuning. I used a gridsearch
 Overall, xgboost produced the best recall compared to the other models, missing only 8 churners (false negatives). Even though the xgboost model produced significantly more false positives, this error is not detrimental to the business. Misclassifying non-churners is not a material issue, while misclassifying churners materially hurts the business if those customers leave the service.
 Plotting feature importances of our refined model revealed the following:
 
-<img width="879" alt="Screen Shot 2022-07-17 at 11 52 20 AM" src="https://user-images.githubusercontent.com/87211473/179421977-2bd1d89e-c901-4a42-a6be-526a63966659.png">
+<img width="851" alt="Screen Shot 2022-08-10 at 1 14 04 PM" src="https://user-images.githubusercontent.com/87211473/184014587-97032712-3990-4a36-8c6f-d30bfaab6506.png">
+
 
 # Business Recommendations
 
